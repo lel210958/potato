@@ -19,6 +19,7 @@
     <modules>
         <module>../potato-web</module>
         <module>../potato-admin</module>
+        <module>../potato-common</module>
     </modules>
 
     <properties>
