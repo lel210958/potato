@@ -1,10 +1,10 @@
-package com.lel.potatoadmin;
+package com.lel.potato.common;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PotatoAdminApplicationTests {
+class PotatoCommonApplicationTests {
 
     @Test
     void contextLoads() {

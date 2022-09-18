@@ -1,4 +1,4 @@
-package com.lel.potatocommon.utils;
+package com.lel.potato.common.utils;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
