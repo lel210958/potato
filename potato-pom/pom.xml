@@ -21,13 +21,15 @@
     </properties>
 
     <modules>
-        <module>../potato-web</module>
-        <module>../potato-common</module>
-        <module>../potato-admin</module>
-        <module>../potato-web-intf</module>
-        <module>../potato-web-service</module>
-        <module>../potato-admin-intf</module>
-        <module>../potato-admin-service</module>
+        <module>potato-common</module>
+
+        <module>potato-web</module>
+        <module>potato-web-intf</module>
+        <module>potato-web-service</module>
+
+        <module>potato-admin</module>
+        <module>potato-admin-intf</module>
+        <module>potato-admin-service</module>
     </modules>
 
     <dependencies>

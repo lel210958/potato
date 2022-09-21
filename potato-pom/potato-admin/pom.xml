@@ -6,7 +6,7 @@
         <groupId>com.lel</groupId>
         <artifactId>potato-pom</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath>../potato-pom</relativePath> <!-- lookup parent from repository -->
+        <relativePath>../</relativePath> <!-- lookup parent from repository -->
     </parent>
     <artifactId>potato-admin</artifactId>
     <version>0.0.1-SNAPSHOT</version>
