@@ -1,4 +1,4 @@
-package com.lel.potato.common.tool;
+package com.lel.potato.common.utils;
 
 import cn.hutool.core.io.FileUtil;
 
@@ -8,12 +8,6 @@ import java.util.Arrays;
 import java.util.List;
 
 public class FileUtils {
-
-    public static void main(String[] args) {
-//        groupByFileName("E:\\temp", "E:\\TwFiles");
-        renameSimpleName("E:\\TwFiles");
-//        deleteEmptyDir("E:\\temp");
-    }
 
     /**
      * 根据给出的path，扫描对应路径的文件获取文件前缀，
@@ -86,8 +80,6 @@ public class FileUtils {
             }
             if(!isSuffix(file, "zip")){
                 String[] nameArr = file.getName().split("-");
-                //Ivressee1-1386230515733204993-20210425_160804-vid1.mp4 更改为Ivressee1-20210425_160804-vid1.mp4
-                //flashshark1997-1415296982839562246-20210714_210750-img2.jpg
                 if(nameArr.length == 4 && nameArr[1].length() > 15){
                     String newName = file.getParentFile().getAbsolutePath() + File.separator + nameArr[0] + "-" + nameArr[2] + "." + FileUtil.getSuffix(file);
                     System.err.println(newName);

@@ -1,7 +1,6 @@
 package com.lel.potato.common.tool;
 
 import cn.hutool.core.io.FileUtil;
-import lombok.extern.slf4j.Slf4j;
 import org.apache.http.HttpEntity;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
@@ -16,7 +15,6 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.UUID;
 
-@Slf4j
 public class ResolveWholePath {
     private static CloseableHttpClient httpClient = HttpClients.createDefault();
 
